@@ -1,0 +1,34 @@
+@import './App.scss';
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html, body {
+    background: $white-color;
+    font-family: $font-family-ptsans;
+    color: $black-color;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: $fourth-color;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: $max-width;
+    margin: 0 auto;
+}
+
+.no-items-container {
+    padding: 50px;
+    text-align: center;
+    font-size: $font-size-lg;
+}

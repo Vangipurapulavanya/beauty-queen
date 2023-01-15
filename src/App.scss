@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Unna:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+//fonts 
+$font-family-ptsans: 'PT Sans', sans-serif;
+$font-family-unna: 'Unna', cursive;
+$font-family-nautigal: 'The Nautigal', cursive;
+$font-family-poppins: 'Poppins', sans-serif;
+
+//colors
+$primary-color: #FFFEFD;
+$secondary-color: #E7D9C9;
+$third-color: #949697;
+$fourth-color: #333333;
+$white-color: #FFFFFF;
+$black-color: #000000;
+
+//Font sizes
+$font-size-sm: 14px;
+$font-size-rg: 16px;
+$font-size-md: 20px;
+$font-size-lg: 24px;
+$font-size-xlg: 32px;
+
+$max-width: 1440px;
+$transition: all 400ms ease;
