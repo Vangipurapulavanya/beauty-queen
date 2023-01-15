@@ -4,6 +4,7 @@ import Home from "./components/Home/Home";
 import Header from './components/Header/Header';
 import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
+import Account from "./components/Account/Account";
 import Footer from "./components/Footer/Footer";
 import Shop from "./components/Shop/Shop";
 import Skin from "./components/Products/Skin/Skin";
@@ -24,6 +25,7 @@ function App() {
         <Route exact path="/hair" element={<Hair/>}></Route>
         <Route exact path="/body" element={<Body/>}></Route>
         <Route exact path ="/cart" element={<Cart/>}></Route>
+        <Route exact path="/account" element={<Account/>}></Route>
       </Routes>
       <Description/>
       <Footer/>
