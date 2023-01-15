@@ -1,0 +1,8 @@
+.products-list{
+    display: grid;
+    gap: 30px;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 50px 255px;
+}

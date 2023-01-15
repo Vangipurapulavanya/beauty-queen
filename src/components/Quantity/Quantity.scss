@@ -1,0 +1,20 @@
+@import "../../App.scss"; 
+.quantity{
+    button{
+        border:none;
+        outline: none;
+        background: none;
+        font-size:$font-size-lg;
+        text-align: center;
+        
+    }
+
+    &__increase{
+        margin:5px 15px 0 ;
+    }
+    &__decrease{
+        margin: 0 15px;
+    }
+
+    
+}

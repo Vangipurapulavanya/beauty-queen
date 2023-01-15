@@ -1,0 +1,81 @@
+@import '../../App.scss';
+footer {
+    width: 100%;
+    background: $fourth-color;
+
+    .container {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 50px;
+
+        .footer-logo-social-media {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+
+            .logo-text {
+                color: $white-color;
+                font-family: $font-family-nautigal;
+                font-weight: bold;
+                font-size: 36px;
+            }
+
+            .social-media {
+                list-style: none;
+                display: flex;
+                margin-top: 20px;
+                gap: 20px;
+                color: $white-color;
+                font-size: $font-size-sm;
+            }
+        }
+
+        .footer-content {
+            p {
+                color: $white-color;
+                font-size: $font-size-lg;
+            }
+
+            form {
+                margin: 20px 0;
+                display: flex;
+                gap: 20px;
+                input {
+                    outline: none;
+                    padding: 15px;
+                    width: 100%;
+                    background-color: transparent;
+                    border: none;
+                    color: $white-color;
+                    border-bottom: 1px $white-color solid;
+                }
+
+                button {
+                    border: none;
+                    outline: none;
+                    padding: 0 20px;
+                    font-family: $font-family-unna;
+                    text-transform: uppercase;
+                }
+            }
+            &__nav {
+                display: flex;
+                gap: 50px;
+                color: $white-color;
+
+                ul {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    margin-top: 20px;
+
+                    li a {
+                        color: $third-color;
+                    }
+                }
+                
+            }
+        }
+    }
+}

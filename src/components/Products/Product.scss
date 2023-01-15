@@ -1,0 +1,44 @@
+@import '../../App.scss';
+
+.product__item{
+    border: 1px $black-color solid;
+    width: 310px;
+    height: auto;
+    
+
+    .product__item-image{
+        width: 100%;
+        height:350px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    }
+
+    .product__item-title-price{
+        padding: 20px;
+
+        .product__item-title {
+            font-family: $font-family-poppins;
+            font-weight: bold;
+            &::after {
+                content: "";
+                display: block;
+                border-bottom: 1px $black-color solid;
+                margin: 5px 0;
+            }
+        }
+
+        .product__item-price {
+            font-family: $font-family-poppins;
+        }
+    }
+
+}

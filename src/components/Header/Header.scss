@@ -1,0 +1,36 @@
+@import '../../App.scss';
+
+header {
+    background-color: $secondary-color;
+    padding: 10px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px;
+    }
+
+    .logo-text {
+        font-family: $font-family-nautigal;
+        font-weight: bold;
+        font-size: 36px;
+    }
+
+    .nav-links, .page-links {
+        list-style: none;
+        display: flex;
+        
+        li a {
+            text-decoration: none;
+            color: $fourth-color;
+            padding: 20px;
+
+            transition: $transition;
+
+            &:hover {
+                background-color: white;
+            }
+
+        }
+    }
+}

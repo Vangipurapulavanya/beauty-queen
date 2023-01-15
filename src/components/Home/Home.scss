@@ -1,0 +1,123 @@
+@import '../../App.scss';
+
+.home {
+    .home-banner-carousel {
+        background-color: $black-color;
+        height: 650px;
+
+        .thumbs-wrapper {
+            display: none;
+        }
+
+        img {
+            height: 650px;
+            object-fit: cover;
+        }
+    }
+
+    &-description {
+        padding: 40px;
+        display: flex;
+        flex-direction: column; 
+
+        
+
+        .home-science {
+            display: flex;
+
+            .science {
+                &__img {
+                    width: 50%;
+                    height: 600px;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-start;
+
+                    img {
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+
+                &__description {
+                    width: 50%;
+                    padding: 50px;
+
+                    h1{
+                        font-family: $font-family-unna;
+                        font-size: $font-size-xlg;
+
+                        &::after {
+                            content:"";
+                            display: block;
+                            width: 100%;
+                            border-bottom: 1px $black-color solid;
+                            margin: 10px 0;
+                        }
+                    }
+
+                    p {
+                        font-size: $font-size-md;
+                        line-height: 1.7rem;
+                    }
+                }
+            }
+        }
+
+        .home-welove {
+            display: flex;
+
+            .welove {
+                &__description {
+                    width: 50%;
+                    padding: 50px;
+
+                    h1 {
+                        font-family: $font-family-unna;
+                        font-size: $font-size-xlg;
+
+                        &::after {
+                            content:"";
+                            display: block;
+                            width: 100%;
+                            border-bottom: 1px $black-color solid;
+                            margin: 10px 0;
+                        }
+                    }
+
+                    p {
+                        font-size: $font-size-md;
+                        line-height: 1.7rem;
+                    }
+                }
+                &__img {
+                    width: 50%;
+                    height: 600px;
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+
+                    img {
+                        width: 100%;
+                        object-fit: contain;
+                    }
+                }
+            }
+        }
+    }
+
+    .homepage-products-list {
+
+        .products-list-heading {
+            font-family: $font-family-unna;
+            font-size: $font-size-xlg;
+            padding: 25px;
+            margin: 50px 0 0;
+            width: 100%;
+            background: $secondary-color;
+            text-align: center;
+        }
+    }
+}
+
+

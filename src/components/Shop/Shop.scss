@@ -1,0 +1,51 @@
+@import '../../App.scss';
+
+.shop {
+
+    .shop-header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: 1px $third-color solid;
+        margin: 40px 0;
+        padding: 0 0 20px;
+
+        li {
+            text-decoration: none;
+            color: $fourth-color;
+            padding: 10px 20px;
+            margin: 10px 20px;
+            cursor: pointer;
+
+            transition: $transition;
+            background-color: $secondary-color;
+
+            &:hover {
+                background-color: $third-color;
+            }
+
+            &:active {
+                background-color: $white-color;
+                color: $black-color;
+            }
+
+            &.highlight-menu {
+                background-color: $black-color;
+                color: $white-color;
+            }
+        }
+    }
+
+    .popular-products-list {
+        .products-list-heading {
+            font-family: $font-family-unna;
+            font-size: $font-size-xlg;
+            padding: 25px;
+            margin: 50px 0 0;
+            width: 100%;
+            background: $secondary-color;
+            text-align: center;
+        }
+    }
+
+}

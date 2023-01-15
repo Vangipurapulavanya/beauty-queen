@@ -1,0 +1,210 @@
+@import '../../App.scss';
+
+.cart {
+    width: 100%;
+    display: flex;
+
+    &__section {
+        width: 75%;
+
+        &-header {
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px black solid;
+
+            li {
+                padding: 10px 20px;
+                margin: 10px 20px;
+                transition: $transition;
+                background-color: $secondary-color;
+
+                &:hover {
+                    background-color: $third-color;
+                }
+
+                &:active {
+                    background-color: $white-color;
+                    color: $black-color;
+                }
+
+                &.highlight-menu {
+                    background-color: $black-color;
+                    color: $white-color;
+                }
+            }
+        }
+
+        &-table {
+            margin-top: 30px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+
+            table {
+                display: flex;
+                flex-direction: column;
+
+                tr {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                td {
+                    padding: 10px 30px;
+
+                    .cart__item-description {
+                        font-family: $font-family-poppins;
+
+                        span {
+                            font-weight: bold;
+                            display: block;
+                        }
+
+                    }
+
+                    img {
+                        width: 100px;
+                        height: 100px
+                    }
+
+                }
+            }
+
+        }
+
+        .cart__item-remove {
+            cursor: pointer;
+        }
+
+    }
+
+    &__shipping {
+        padding: 50px;
+
+        h3 {
+            margin-bottom: 30px;
+        }
+
+        .shipping-method {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+            &-heading {
+                margin-top: 50px;
+            }
+
+            input {
+                width: max-content;
+            }
+
+            span {
+                margin-left: 10px;
+                cursor: pointer;
+            }
+
+        }
+
+        .shipping-address {
+            display: grid;
+            grid-template-columns: auto auto;
+
+            .shipping-inputs {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                margin: 20px 0;
+            }
+
+            label {
+                width: 100%;
+                font-family: $font-family-unna;
+                font-size: 20px;
+            }
+
+            input {
+                width: 80%;
+                padding: 10px;
+                // margin: 5px 0 20px; 
+                border: none;
+                border-bottom: 1px solid $black-color;
+                outline: none;
+            }
+        }
+    }
+
+    &__order-summary {
+        width: 25%;
+
+        border-left: 1px solid grey;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 40px;
+
+        table {
+            width: 100%;
+            padding: 10px 0;
+
+            th:first-of-type {
+                text-align: start;
+            }
+
+            td {
+                padding: 5px 0;
+            }
+        }
+
+        .order-summary__total {
+            margin-top: 100px;
+
+            form {
+                border-top: 1px grey solid;
+                border-bottom: 1px grey solid;
+                padding: 15px 0 20px;
+
+                input {
+                    margin-top: 10px;
+                    padding: 5px;
+                    width: 100%;
+                    border: 1px grey solid;
+                    outline: none;
+                }
+            }
+
+            table {
+                padding: 10px 0;
+            }
+
+            .order-summary__total-cost {
+                border-top: 1px grey solid;
+                padding: 15px 0;
+                width: 100%;
+            }
+
+        }
+
+        .order-summary__btn {
+            width: 100%;
+            padding: 10px 20px;
+            background: $black-color;
+            color: $white-color;
+            font-family: $font-family-poppins;
+            font-size: $font-size-rg;
+            margin-top: 10px;
+            outline: none;
+            transition: $transition;
+
+            &:hover {
+                background-color: $fourth-color;
+            }
+
+            &:active {
+                background-color: $secondary-color;
+            }
+        }
+
+    }
+
+}
