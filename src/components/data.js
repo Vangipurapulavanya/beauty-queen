@@ -35,9 +35,9 @@ export const popularProducts = [
     title: "Rosewater",
     category: "skin",
     description:
-      "Natural Botox Oil without injections is one of the top products from You & Oil! A 100% concentrated, rich beauty shot for the skin. It relaxes muscles on the face, leaving it more elastic, firm and younger-looking. ",
+      "Rose water has been used for thousands of years as a skin care ingredient and nutrient-rich botanical — and it’s particularly effective as a facial toner.. ",
     ingredients:
-      " Sclerocarya Birrea Seed Oil (Marula); Caprylic/Capric Triglyceride; Tocopherol (Vitamin E); Helianthus Annus Seed (Sunflower) Oil; Lavandula Stoechas (Lavender) Extract",
+      " Aqua, Fragrance (Rooh Gulab), Rose Oit, Propylene Glycol, Propyl Paraben, Methyl Paraben, Bronopol",
     size: "125ml",
     price: 19.99,
   },
@@ -47,9 +47,9 @@ export const popularProducts = [
     title: "Dearscrub",
     category: "body",
     description:
-      "Your essential dermatologist-designed routine for clean, hydrated skin—everyday. Wash away dirt and excess oil with our light-foaming facial cleanser, then seal in hydration with your pick of our lightweight gel moisturizer or creamy, rich moisturizer. Easy.",
+      "Body scrubs are a mechanical exfoliant, meaning they physically remove dead skin cells from the outer layer of your skin with abrasive ingredients, like sugar or salt.",
     ingredients:
-      "Cyclopentasiloxane Dimethiconol, Parfum, Olea Europea Oil, Astrocarym Murumuru Seed Butter, Benzyl Salicylate, Benzyl Alcohol, Benzyl, Benzoate, Limonene, Linalool, Hexyl Cinnamal, Geraniol, Hydroxycitronellal Isoeugenol.",
+      "Salt ,Sugar , Ground coffee , Oatmeal , Other options: almond meal, flax meal (linseeds), rice bran, wheat bran, buckwheat, and ground nut shells, cornmeal..",
     size: "100ml",
     price: 45,
   },
@@ -62,9 +62,9 @@ export const productListSkin = [
     category: "skin",
     title: "Bioglow",
     description:
-      "The Ultra-light formula instantly penetrates the hair structure,, saturating it with useful substances. The oil nourishes the keratin layer, glues the split ends It envelops the hair with an invisible film that protects the strands from the negative effects of the environment, appliances and styling products.",
+      "Formulated with Provitamin B5, Aloe Vera, and vitamin E, this face and body scrub helps exfoliate dead skin and provide smoothing and nourishing effects to the skin. Provitamin B5 attracts moisture into deeper skin layers, thus providing moisturising, regenerating and softening effects..",
     ingredients:
-      "Cyclopentasiloxane Dimethiconol, Parfum, Olea Europea Oil, Astrocarym Murumuru Seed Butter, Benzyl Salicylate, Benzyl Alcohol, Benzyl, Benzoate, Limonene, Linalool, Hexyl Cinnamal, Geraniol, Hydroxycitronellal Isoeugenol.",
+      "Aqua, paraffinium liquidium, juglans regia, propylene glycol, stearic acid , Glyceryl stearate, isopropyl myristate, prunus armenica, tocopheryl acetate, prunus persica",
     size: "100ml",
     price: 25,
   },
@@ -75,10 +75,10 @@ export const productListSkin = [
     category: "skin",
     title: "Jade Roller",
     description:
-      "The Ultra-light formula instantly penetrates the hair structure,, saturating it with useful substances. The oil nourishes the keratin layer, glues the split ends It envelops the hair with an invisible film that protects the strands from the negative effects of the environment, appliances and styling products.",
+      "Rooted in ancient Chinese medicine, a jade roller is a handheld massaging tool that you roll across your face in a back-and-forth motion for a few minutes at a time.",
     ingredients:
-      "Cyclopentasiloxane Dimethiconol, Parfum, Olea Europea Oil, Astrocarym Murumuru Seed Butter, Benzyl Salicylate, Benzyl Alcohol, Benzyl, Benzoate, Limonene, Linalool, Hexyl Cinnamal, Geraniol, Hydroxycitronellal Isoeugenol.",
-    size: "100ml",
+      "Nephrite jade polished stone .",
+    size: "Medium",
     price: 25,
   },
 
