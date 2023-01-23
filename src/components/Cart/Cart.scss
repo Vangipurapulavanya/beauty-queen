@@ -17,6 +17,7 @@
                 margin: 10px 20px;
                 transition: $transition;
                 background-color: $secondary-color;
+                cursor: pointer;
 
                 &:hover {
                     background-color: $third-color;
@@ -80,6 +81,7 @@
 
     &__shipping {
         padding: 50px;
+        
 
         h3 {
             margin-bottom: 30px;
@@ -100,7 +102,7 @@
 
             span {
                 margin-left: 10px;
-                cursor: pointer;
+                
             }
 
         }

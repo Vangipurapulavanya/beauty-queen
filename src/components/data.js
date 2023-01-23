@@ -62,9 +62,9 @@ export const productListSkin = [
     category: "skin",
     title: "Bioglow",
     description:
-      "Formulated with Provitamin B5, Aloe Vera, and vitamin E, this face and body scrub helps exfoliate dead skin and provide smoothing and nourishing effects to the skin. Provitamin B5 attracts moisture into deeper skin layers, thus providing moisturising, regenerating and softening effects..",
+      "Formulated with Provitamin B5, aloe Vera,vitamin E.This face and body scrub helps exfoliate dead skin and provide smoothing and nourishing effects to the skin. Provitamin B5 attracts moisture into deeper skin layers, thus providing moisturising, regenerating and softening effects.",
     ingredients:
-      "Aqua, paraffinium liquidium, juglans regia, propylene glycol, stearic acid , Glyceryl stearate, isopropyl myristate, prunus armenica, tocopheryl acetate, prunus persica",
+      " Paraffinium liquidium, juglans regia, propylene glycol, stearic acid , Glyceryl stearate, isopropyl myristate, prunus armenica, tocopheryl acetate, prunus persica",
     size: "100g",
     price: 20,
   },
@@ -90,7 +90,7 @@ export const productListSkin = [
     description:
       "Moisture rich yet so ultra light this Creme melts into your skin with a silky feel. This formulation gently polishes your skin to reveal that illuminated look. This Day Creme replenishes and moisturizes your skin giving it an instant glow..",
     ingredients:
-      "Water, Stearic acid, Palmitic acid, Niacinamide, Glycerine, Isopropyl Myristate, Ethylhexyl Methoxycinnamate, Titanium Dioxide, Aluminium Hydroxide, Potassium Hydroxide, Cetyl Alcohol, Dimethicone, Butyl Methoxydibenzoylmethane, Perfume,.",
+      " Stearic acid, Palmitic acid, Niacinamide, Glycerine, Isopropyl Myristate, Ethylhexyl Methoxycinnamate, Titanium Dioxide, Aluminium Hydroxide, Potassium Hydroxide, Cetyl Alcohol, Dimethicone, Butyl Methoxydibenzoylmethane, Perfume,.",
     size: "100g",
     price: 15,
   },
@@ -103,7 +103,7 @@ export const productListSkin = [
     description:
       "A hydrating, balancing, and toning fine mist spray formulated for daily use. Beautifully scented pure rose hydrosol moisturizes the skin, restores the skin's pH balance, calms sensitivity and redness, and regenerates skin with its powerful antioxidants.. ",
     ingredients:
-      " distilled water, organic rose water,organic aloe vera,organic green tea bags,1 fresh, organic cucumber,lavender essential oil",
+      " Distilled water, organic rose water,organic aloe vera,organic green tea bags,1 fresh, organic cucumber,lavender essential oil",
     size: "100ml",
     price: 15,
   },
@@ -114,7 +114,7 @@ export const productListSkin = [
     category: "skin",
     title: "Gommage Scrub",
     description:
-      "Modern gommage uses a combination of ingredients that exfoliate your skin chemically through the combination of enzymes and scrubbing. Along with other exfoliating techniques, it has the potential to clear away dead skin cells and stimulate skin cell growth to keep your skin looking polished and smooth.",
+      "Modern gommage uses a combination of ingredients that exfoliate your skin chemically through the combination of enzymes and scrubbing. Along with other exfoliating techniques, it has the potential to clear away dead skin cells and stimulate skin cell growth to keep your skin looking polished,smooth and beautiful.",
     ingredients:
       "Aqua(water),White deadnettle, Vasoconstriction,Borneol, Vegetable glycerine,Sweet lime essential oil.",
     size: "100g",
